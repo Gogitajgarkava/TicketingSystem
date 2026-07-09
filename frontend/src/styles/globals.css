@@ -1,0 +1,56 @@
+:root {
+  --ink: #1B1B2F;
+  --ink-soft: #35354f;
+  --paper: #FBF8F1;
+  --paper-dim: #F1ECDE;
+  --amber: #F2A93B;
+  --amber-deep: #D98B1E;
+  --teal: #3E7C6F;
+  --red-cancel: #C1462F;
+  --line: rgba(27, 27, 47, 0.14);
+
+  --font-display: "Fraunces", serif;
+  --font-body: "Inter", sans-serif;
+  --font-mono: "IBM Plex Mono", monospace;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+input, select, textarea {
+  font-family: inherit;
+}
+
+:focus-visible {
+  outline: 2px solid var(--ink);
+  outline-offset: 2px;
+}
+
+.app-shell {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}

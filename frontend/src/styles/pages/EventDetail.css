@@ -1,0 +1,83 @@
+/* EventDetail Page Specific Styles */
+
+.detail-page-container {
+  padding: 40px 24px;
+  max-width: 1100px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.detail-hero {
+  display: flex;
+  justify-content: space-between;
+  gap: 32px;
+  flex-wrap: wrap;
+  border-bottom: 1px solid var(--line);
+  padding-bottom: 28px;
+  margin-bottom: 28px;
+}
+
+.detail-info h1 {
+  font-family: var(--font-display);
+  font-size: 2.1rem;
+  margin: 0 0 12px;
+}
+
+.detail-meta-row {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  font-size: 0.92rem;
+  color: var(--ink-soft);
+  margin-bottom: 16px;
+}
+
+.booking-box {
+  background: var(--paper-dim);
+  border: 1.5px solid var(--ink);
+  border-radius: 16px;
+  padding: 24px;
+  width: 280px;
+  flex-shrink: 0;
+  height: fit-content;
+}
+
+.booking-box h3 {
+  font-family: var(--font-display);
+  margin: 0 0 16px;
+}
+
+.qty-control {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 16px 0;
+}
+
+.qty-control button {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  border: 1.5px solid var(--ink);
+  background: var(--paper);
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.total-line {
+  font-family: var(--font-mono);
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.detail-description {
+  margin-top: 28px;
+  line-height: 1.6;
+}
+
+.detail-description h2 {
+  font-family: var(--font-display);
+  font-size: 1.5rem;
+  margin: 20px 0 12px;
+}

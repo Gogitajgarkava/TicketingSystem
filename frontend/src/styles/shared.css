@@ -1,0 +1,194 @@
+/* ---------- Common Buttons ---------- */
+.pill-btn {
+  background: var(--ink);
+  color: var(--paper) !important;
+  padding: 10px 20px;
+  border-radius: 999px;
+  border: none;
+  font-weight: 600;
+  font-size: 0.9rem;
+  transition: transform 0.15s ease, background 0.15s ease;
+}
+
+.pill-btn:hover {
+  background: var(--ink-soft);
+  transform: translateY(-1px);
+}
+
+.pill-btn.outline {
+  background: transparent;
+  color: var(--ink) !important;
+  border: 1.5px solid var(--ink);
+}
+
+.pill-btn.danger {
+  background: var(--red-cancel);
+}
+
+.pill-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  transform: none;
+}
+
+/* ---------- Layout ---------- */
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 40px 24px 80px;
+  width: 100%;
+  flex: 1;
+}
+
+.page-header {
+  margin-bottom: 32px;
+}
+
+.page-header h1 {
+  font-family: var(--font-display);
+  font-size: 2.4rem;
+  margin: 0 0 8px;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+.page-header p {
+  color: var(--ink-soft);
+  margin: 0;
+  font-size: 1.02rem;
+}
+
+.eyebrow {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--amber-deep);
+  margin-bottom: 10px;
+  display: block;
+}
+
+.section-title {
+  font-family: var(--font-display);
+  font-size: 1.4rem;
+  margin: 40px 0 16px;
+}
+
+/* ---------- Filters ---------- */
+.filters-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 32px;
+  padding: 16px;
+  background: var(--paper-dim);
+  border-radius: 14px;
+  border: 1px solid var(--line);
+}
+
+.filters-bar select,
+.filters-bar input {
+  padding: 10px 14px;
+  border-radius: 8px;
+  border: 1px solid var(--line);
+  background: var(--paper);
+  font-size: 0.9rem;
+  color: var(--ink);
+}
+
+/* ---------- Alerts ---------- */
+.alert {
+  padding: 12px 16px;
+  border-radius: 10px;
+  font-size: 0.9rem;
+  margin-bottom: 18px;
+}
+
+.alert-error {
+  background: #FCEAE5;
+  color: var(--red-cancel);
+  border: 1px solid rgba(193,70,47,0.3);
+}
+
+.alert-success {
+  background: #E9F3EF;
+  color: var(--teal);
+  border: 1px solid rgba(62,124,111,0.3);
+}
+
+/* ---------- Tables ---------- */
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+}
+
+.data-table th {
+  text-align: left;
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--ink-soft);
+  padding: 10px 12px;
+  border-bottom: 1.5px solid var(--ink);
+}
+
+.data-table td {
+  padding: 12px;
+  border-bottom: 1px solid var(--line);
+}
+
+.status-tag {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  padding: 3px 10px;
+  border-radius: 999px;
+  text-transform: uppercase;
+}
+
+.status-active { background: #E9F3EF; color: var(--teal); }
+.status-cancelled { background: #FCEAE5; color: var(--red-cancel); }
+
+/* ---------- Stats ---------- */
+.stats-row {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 28px;
+  flex-wrap: wrap;
+}
+
+.stat-card {
+  background: var(--paper-dim);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 18px 22px;
+  min-width: 160px;
+}
+
+.stat-card .value {
+  font-family: var(--font-mono);
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.stat-card .label {
+  font-size: 0.78rem;
+  color: var(--ink-soft);
+  margin-top: 4px;
+}
+
+/* ---------- Empty State ---------- */
+.empty-state {
+  text-align: center;
+  padding: 60px 20px;
+  color: var(--ink-soft);
+}
+
+/* ---------- QR Preview ---------- */
+.qr-preview {
+  width: 100px;
+  height: 100px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+}

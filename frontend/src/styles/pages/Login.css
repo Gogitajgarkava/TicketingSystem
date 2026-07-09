@@ -1,0 +1,58 @@
+/* Login Page Specific Styles */
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 70px);
+  padding: 40px 20px;
+}
+
+.login-card {
+  max-width: 500px;
+  width: 100%;
+  background: var(--paper);
+  border: 1.5px solid var(--ink);
+  border-radius: 16px;
+  padding: 36px;
+}
+
+.login-header {
+  text-align: center;
+  margin-bottom: 28px;
+}
+
+.login-header h1 {
+  font-family: var(--font-display);
+  font-size: 1.8rem;
+  margin: 0 0 8px;
+}
+
+.login-header p {
+  color: var(--ink-soft);
+  margin: 0;
+  font-size: 0.95rem;
+}
+
+.login-divider {
+  text-align: center;
+  margin: 24px 0;
+  color: var(--ink-soft);
+  font-size: 0.85rem;
+}
+
+.login-links {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 18px;
+  font-size: 0.9rem;
+}
+
+.login-links a {
+  color: var(--amber-deep);
+  text-decoration: none;
+}
+
+.login-links a:hover {
+  text-decoration: underline;
+}

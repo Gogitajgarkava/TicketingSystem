@@ -1,0 +1,60 @@
+/* CreateEvent Page Specific Styles */
+
+.create-event-container {
+  padding: 40px 24px;
+  max-width: 800px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.create-event-header {
+  margin-bottom: 32px;
+}
+
+.create-event-header h1 {
+  font-family: var(--font-display);
+  font-size: 2rem;
+  margin: 0;
+  margin-bottom: 8px;
+}
+
+.create-event-header p {
+  color: var(--ink-soft);
+  margin: 0;
+}
+
+.event-form-card {
+  background: var(--paper);
+  border: 1.5px solid var(--ink);
+  border-radius: 16px;
+  padding: 36px;
+}
+
+.section-divider {
+  margin: 32px 0 24px;
+  padding-top: 24px;
+  border-top: 1px solid var(--line);
+}
+
+.section-divider h3 {
+  font-family: var(--font-display);
+  font-size: 1.1rem;
+  margin: 0 0 16px;
+}
+
+.event-form-actions {
+  display: flex;
+  gap: 12px;
+  margin-top: 32px;
+  justify-content: flex-end;
+}
+
+.char-count {
+  font-size: 0.75rem;
+  color: var(--ink-soft);
+  margin-top: 4px;
+}
+
+.char-count.warning {
+  color: var(--amber-deep);
+}

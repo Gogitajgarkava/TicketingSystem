@@ -1,0 +1,18 @@
+/* Global Styles */
+@import './globals.css';
+@import './shared.css';
+@import './forms.css';
+
+/* Component Styles */
+@import './components/Navbar.css';
+@import './components/EventCard.css';
+
+/* Page Styles */
+@import './pages/Login.css';
+@import './pages/Register.css';
+@import './pages/EventsList.css';
+@import './pages/EventDetail.css';
+@import './pages/CreateEvent.css';
+@import './pages/MyTickets.css';
+@import './pages/EventReport.css';
+@import './pages/OrganizerDashboard.css';
